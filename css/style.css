@@ -93,7 +93,7 @@ figure figcaption {
 }
 
 #colorlib-page {
-	width: 90%;
+	width: 77%;
 	overflow: hidden;
 	position: relative;
 }
@@ -106,7 +106,7 @@ figure figcaption {
 	position: fixed;
 	overflow-y: scroll;
 	z-index: 1001;
-	background: #2c98f099;
+	background: #5b7dde33;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -514,7 +514,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 
 .colorlib-narrow-content {
 	padding: 0 2.5em;
-	margin-left: 11%;
+	margin-left: 20%;
 	height: 630px;
 	width: 880px;
 }
@@ -557,7 +557,8 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 }
 
 .colorlib-heading {
-	margin-top: 20%;
+	margin-top: 8%;
+	margin-top: -8%;
 	margin-left: 10%;
 	font-size: 18px;
 	margin-bottom: 4em;
