@@ -512,10 +512,9 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 .colorlib-narrow-content {
 	
 	padding: 0 2.5em;
-	background-color: aliceblue;
-	margin-left: 9%; width : 820px;
+	margin-left: 11%; 
 	height: 630px;
-	width: 820px;
+	width: 880px;
 }
 
 @media screen and (max-width: 768px) {
