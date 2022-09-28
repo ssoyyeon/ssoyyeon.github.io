@@ -92,7 +92,6 @@ figure figcaption {
 }
 
 #colorlib-page {
-	background-color: #2c98f040;
 	width: 90%;
 	overflow: hidden;
 	position: relative;
@@ -511,10 +510,11 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 }
 
 .colorlib-narrow-content {
+	
 	padding: 0 2.5em;
 	background-color: aliceblue;
 	margin-left: 9%; width : 820px;
-	height: 530px;
+	height: 630px;
 	width: 820px;
 }
 
