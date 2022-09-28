@@ -513,9 +513,10 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 }
 
 .colorlib-narrow-content {
+	background-color: white;
 	padding: 0 2.5em;
-	margin-left: 20%;
-	height: 630px;
+	margin-left: 11%;
+	height: auto;
 	width: 880px;
 }
 
@@ -557,6 +558,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 }
 
 .colorlib-heading {
+	text-transform: uppercase;
 	margin-top: 8%;
 	margin-top: -8%;
 	margin-left: 10%;
