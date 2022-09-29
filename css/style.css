@@ -68,7 +68,7 @@ figure figcaption {
 	margin: 20px auto 0px auto;
 	color: #b3b3b3;
 	font-style: italic;
-	font-family: "Quicksand", Arial, sans-serif;
+	font-family: initial
 }
 
 @media screen and (max-width: 480px) {
@@ -93,7 +93,7 @@ figure figcaption {
 }
 
 #colorlib-page {
-	width: 77%;
+	width: 100%;
 	overflow: hidden;
 	position: relative;
 }
@@ -125,14 +125,14 @@ figure figcaption {
 }
 
 #colorlib-aside .author-img {
-	width: 200px;
-	height: 250px;
-	margin: 0 auto;
-	margin-bottom: 50px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-ms-border-radius: 50%;
-	border-radius: 0%;
+	  width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 0%; 
 }
 
 #colorlib-aside .position {
@@ -559,9 +559,8 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 
 .colorlib-heading {
 	text-transform: uppercase;
-	margin-top: 8%;
-	margin-top: -8%;
-	margin-left: 10%;
+	margin-top: 0%;
+	margin-left: 0%;
 	font-size: 18px;
 	margin-bottom: 4em;
 	font-weight: 700;
@@ -635,7 +634,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-family: initial;
-	background-color: #5b9ede7d;
+	background-color: #2c98f0;
 	color: #fff;
 	position: relative;
 	-webkit-box-shadow: none !important;
@@ -734,7 +733,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 	display: block;
 	width: 40px;
 	height: 40px;
-	background: #2c98f0;
+	background: #2c98f08f;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
