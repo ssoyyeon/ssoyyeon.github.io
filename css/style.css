@@ -558,10 +558,12 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 }
 
 .colorlib-heading {
+	
+	margin-top: 10%;
+    text-decoration: underline solid 3px;
+    text-decoration-color: skyblue;
+    font-size: 18px;
 	text-transform: uppercase;
-	margin-top: 0%;
-	margin-left: 0%;
-	font-size: 18px;
 	margin-bottom: 4em;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -733,7 +735,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 	display: block;
 	width: 40px;
 	height: 40px;
-	background: #2c98f08f;
+	background: #5bc0dec2;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
