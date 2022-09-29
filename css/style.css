@@ -125,14 +125,14 @@ figure figcaption {
 }
 
 #colorlib-aside .author-img {
-	  width: 200px;
-    height: 250px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 0%; 
+	width: 200px;
+	height: 250px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 0%;
 }
 
 #colorlib-aside .position {
@@ -159,6 +159,7 @@ figure figcaption {
 }
 
 #colorlib-aside #colorlib-main-menu {
+	margin-top: 10%;
 	display: block;
 	width: 100%;
 	margin-top: 15%;
@@ -251,6 +252,7 @@ figure figcaption {
 }
 
 #colorlib-aside .colorlib-footer {
+	margin-top: 25%;
 	font-size: 15px;
 	text-align: center;
 	font-weight: 400;
@@ -559,9 +561,9 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 
 .colorlib-heading {
 	margin-top: 10%;
-    text-decoration: underline solid 3px;
-    text-decoration-color: skyblue;
-    font-size: 18px;
+	text-decoration: underline solid 3px;
+	text-decoration-color: skyblue;
+	font-size: 18px;
 	text-transform: uppercase;
 	margin-bottom: 4em;
 	font-weight: 700;
