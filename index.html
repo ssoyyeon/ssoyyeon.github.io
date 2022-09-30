@@ -440,11 +440,6 @@
 									<li>010-4*7*-*5*2</li>
 									<li>20aachi01@gmail.com</li>
 								</ul>
-											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3175.2101264518146!2d126.99721901558223!3d37.266444049013984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b431dc95bf41f%3A0x403c6958afecff71!2z7IiY7JuQ7Jet!5e0!3m2!1sko!2sbg!4v1653954550782!5m2!1sko!2sbg "
-                                frameborder="0 " style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-								<div class="center-block" id="map"
-									style="width: 120%; height: 600px;"></div>
-								<div style="height: 220px;"></div>
 							</div>
 						</div>
 					</div>
@@ -456,43 +451,6 @@
 		<!-- end:container-wrap -->
 	</div>
 	<!-- end:colorlib-page -->
-<script type="text/javascript"
-		src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2eb3c2736bb5d65dbc4b8211eea19288&libraries=services">
-		
-	</script>
-	<!--End Map Section-->
-
-	<script>
-		var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-		 mapOption = {
-	           center: new kakao.maps.LatLng(37.4061763,126.9641843), // 지도의 중심좌표
-			level : 4
-		// 지도의 확대 레벨
-		};
-
-		// 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
-		var map = new kakao.maps.Map(mapContainer, mapOption);
-
-		var zoomControl = new kakao.maps.ZoomControl();
-		// 일반 지도와 스카이뷰로 지도 타입을 전환할 수 있는 지도타입 컨트롤을 생성합니다
-		var mapTypeControl = new kakao.maps.MapTypeControl();
-		// 지도 타입 컨트롤을 지도에 표시합니다
-		map.addControl(mapTypeControl, kakao.maps.ControlPosition.TOPRIGHT);
-		map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
-
-		var geocoder = new kakao.maps.services.Geocoder();
-		// 마커가 표시될 위치입니다 
-		var markerPosition = new kakao.maps.LatLng(37.4982204, 126.8761338);
-
-		// 마커를 생성합니다
-		var marker = new kakao.maps.Marker({
-			position : markerPosition
-		});
-
-		// 마커가 지도 위에 표시되도록 설정합니다
-		marker.setMap(map);
-	</script>
-	
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
