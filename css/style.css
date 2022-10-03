@@ -637,7 +637,7 @@ body.offcanvas #colorlib-main, body.offcanvas .colorlib-nav-toggle {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-family: initial;
-	background-color: #2c98f0;
+	background-color: #2c98f08a;
 	color: #fff;
 	position: relative;
 	-webkit-box-shadow: none !important;
